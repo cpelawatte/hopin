@@ -1,0 +1,49 @@
+{
+  "flutterfire": {
+    "web": {
+      "inject_js": false
+    }
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "hopin-146af",
+          "appId": "1:733726200712:android:200bf66e15762dfd38e03d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "hopin-146af",
+          "configurations": {
+            "android": "1:733726200712:android:200bf66e15762dfd38e03d",
+            "web": "1:733726200712:web:a37e3c7f4b82c6d638e03d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": ["node_modules", ".git", "firebase-debug.log", "firebase-debug.*.log", "*.local"]
+    },
+    {
+      "source": "messaging",
+      "codebase": "messaging",
+      "ignore": ["node_modules", ".git", "firebase-debug.log", "firebase-debug.*.log", "*.local"]
+    }
+  ]
+}

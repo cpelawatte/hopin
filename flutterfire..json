@@ -1,0 +1,8 @@
+{
+  "project_id": "hopin-146af",
+  "features": {
+    "web": {
+      "inject_js": false
+    }
+  }
+}

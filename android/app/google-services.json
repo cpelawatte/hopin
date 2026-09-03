@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "733726200712",
+    "firebase_url": "https://hopin-146af-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "hopin-146af",
+    "storage_bucket": "hopin-146af.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733726200712:android:200bf66e15762dfd38e03d",
+        "android_client_info": {
+          "package_name": "com.example.hopin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7uKVgcT5xpn8EOKhtexEY5cZSOKguzJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
